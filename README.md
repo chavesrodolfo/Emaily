@@ -5,15 +5,15 @@ Project Status: **Building**
 * Git
 * Heroku-cli
 
-##Configurations
+##Development
 
-Create a `config` folder and put into it a file named `keys.js` with the content bellow.
+Create a `config` folder and put into it a file named `dev.js` with the content bellow.
 ```
 module.exports = {
-    GOOGLE_CLIENT_ID = "xxxxxxxx-m604m51aptqr72ej4o8gsgxxxxxxv5qrh.apps.googleusercontent.com",
-    GOOGLE_CLIENT_SECRET = "xxxxxx4RHZ9GDsxxxxxxx",
-    mongoURI: "mongodb://<user>:<passwd>@<host>:25078/<collection>",
-    cookieKey: 'xxxxxxxxWYESDD%#$¨xxxxxxxxx'
+    googleClientID : "451072916731-m604m51aptqr72ej4o8gsg2karev5qrh.apps.googleusercontent.com",
+    googleClientSecret : "eTqKtcH4RHZ9GDstmouJmclb",
+    mongoURI: "mongodb://dodz:dodz123!@ds225078.mlab.com:25078/dodz-emaily-dev",
+    cookieKey: 'MBM65433DHGCF79879JBJHMH'
 };
 ```
 
