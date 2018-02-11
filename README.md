@@ -26,7 +26,13 @@ npm run dev
 
 ## Deploy
 
-It is running in Heroku. Just commit and push to master configured there.
+It is running at Heroku. Just commit and push to master configured there.
+
+## Commands
+
+* Setting heroku repository `heroku git:remote -a emaily-api`
+* Push and Deploy `git push heroku master`
+* Open URI `heroku open`
 
 ## Demo
 
