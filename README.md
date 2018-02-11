@@ -1,11 +1,11 @@
 Project Status: **Building**
 
-##Install
+## Install
 * Node
 * Git
 * Heroku-cli
 
-##Development
+## Development
 
 Create a `config` folder and put into it a file named `dev.js` with the content bellow.
 ```
@@ -17,18 +17,18 @@ module.exports = {
 };
 ```
 
-##Run
+## Run
 
 Run in development mode
 ```
 npm run dev
 ```
 
-##Deploy
+## Deploy
 
 It is running in Heroku. Just commit and push to master configured there.
 
-##Demo
+## Demo
 
 [https://emaily-api.herokuapp.com](https://emaily-api.herokuapp.com/auth/google)
 
