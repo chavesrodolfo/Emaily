@@ -28,18 +28,17 @@ passport.use(
 
             if (existingUser) {
                 // we already have a record
-                done(null, existingUser);
-            } else {
-                // it's a new user
-                const user = await new User({
-                    googleId: profile.id,
-                    name: profile.displayName,
-                    email: profile.emails[0].value
-                }).save();
-
-                user => done(null, user);
+                return done(null, existingUser);
             }
 
+            // it's a new user
+            const user = await new User({
+                googleId: profile.id,
+                name: profile.displayName,
+                email: profile.emails[0].value
+            }).save();
+
+            user => done(null, user);
         }
     )
 );
