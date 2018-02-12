@@ -4,6 +4,7 @@ Project Status: **Building**
 * Node
 * Git
 * Heroku-cli
+* [Create React App](https://github.com/facebook/create-react-app) ->  npm install -g create-react-app
 
 ## Development
 
@@ -36,6 +37,7 @@ It is running at Heroku. Just commit and push to master configured there.
 
 ## Demo
 
-[https://emaily-api.herokuapp.com](https://emaily-api.herokuapp.com/auth/google)
+API - [https://emaily-api.herokuapp.com](https://emaily-api.herokuapp.com/auth/google)
+WEB - [https://emaily-web.herokuapp.com](https://emaily-web.herokuapp.com)
 
 
